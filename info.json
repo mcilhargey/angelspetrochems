@@ -1,0 +1,10 @@
+{
+  "name": "angelspetrochem",
+  "version": "0.1.1",
+  "title": "[AM] Angel's Petro Chemical Processing",
+  "author": "Arch666Angel",
+  "contact": "",
+  "homepage": "",
+  "description": "Adds resource processing lines",
+  "dependencies": ["base >= 0.12.0", "? bobplates >= 0.12.0"]
+}
