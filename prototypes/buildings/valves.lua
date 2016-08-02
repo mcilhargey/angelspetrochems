@@ -7,7 +7,7 @@ data:extend(
     icon = "__angelspetrochem__/graphics/icons/valve-check.png",
     flags = {"goes-to-quickbar"},
 	subgroup = "petrochem-well-head",
-    order = "b[valve-check]",
+    order = "a[valve-check]",
     place_result = "valve-check",
     stack_size = 10,
   },
@@ -163,6 +163,13 @@ data:extend(
       }
     }
   },
+    circuit_connector_sprites =
+    {
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+    },
   circuit_wire_max_distance = 7.5
 },
 --RETURN VALVE
@@ -328,6 +335,13 @@ data:extend(
       }
     }
   },
+  circuit_connector_sprites =
+    {
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+    },
   circuit_wire_max_distance = 7.5
 },
 --OVERFLOW VALVE
@@ -337,7 +351,7 @@ data:extend(
     icon = "__angelspetrochem__/graphics/icons/valve-overflow.png",
     flags = {"goes-to-quickbar"},
 	subgroup = "petrochem-well-head",
-    order = "b[valve-overflow]",
+    order = "c[valve-overflow]",
     place_result = "valve-overflow",
     stack_size = 10,
   },
@@ -494,6 +508,13 @@ data:extend(
       }
     }
   },
+  circuit_connector_sprites =
+    {
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
+      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
+    },
   circuit_wire_max_distance = 7.5
 },
 --CONVERTER VALVE
@@ -503,7 +524,7 @@ data:extend(
     icon = "__angelspetrochem__/graphics/icons/valve-converter.png",
 	flags = {"goes-to-quickbar"},
 	subgroup = "petrochem-well-head",
-    order = "a[valve-converter]",
+    order = "d[valve-converter]",
     place_result = "valve-converter",
     stack_size = 10,
     },

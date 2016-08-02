@@ -1,10 +1,11 @@
 {
   "name": "angelspetrochem",
   "version": "0.1.1",
-  "title": "[AM] Angel's Petro Chemical Processing",
+  "factorio_version": "0.13",
+  "title": "Angel's Petro Chemical Processing",
   "author": "Arch666Angel",
   "contact": "",
-  "homepage": "",
+  "homepage": "https://forums.factorio.com/viewforum.php?f=185",
   "description": "Adds resource processing lines",
-  "dependencies": ["base >= 0.12.0", "? bobplates >= 0.12.0"]
+  "dependencies": ["base >= 0.13.0", "? angelsrefining >= 0.2.1", "? bobplates >= 0.13.0"]
 }
